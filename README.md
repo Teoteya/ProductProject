@@ -20,7 +20,7 @@ git clone https://github.com/Teoteya/ProductProject.git
 
 cd ProductProject
 
-3. Создайте базу данных product.
+2. Создайте базу данных product.
 
  Убедитесь, что PostgreSQL запущен, и создайте базу данных:
 CREATE DATABASE product;
@@ -33,8 +33,8 @@ CREATE DATABASE product;
     
     password: 12345
     
-4. Соберите проект: mvn clean install
-5. Запустите приложение: mvn spring-boot:run
+3. Соберите проект: mvn clean install
+4. Запустите приложение: mvn spring-boot:run
 
  - Liquibase инициализирует базу данных. После первого запуска структура таблицы product будет создана, а данные из скрипта будут автоматически добавлены.
  - Приложение будет доступно на http://localhost:8080.
